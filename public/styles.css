@@ -614,12 +614,13 @@ video {
   border-width: 1px;
 }
 
-.border-b-4 {
-  border-bottom-width: 4px;
-}
-
 .border-b-8 {
   border-bottom-width: 8px;
+}
+
+.border-blue-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(147 197 253 / var(--tw-border-opacity));
 }
 
 .border-darkGray {
@@ -627,19 +628,14 @@ video {
   border-color: rgb(78 73 73 / var(--tw-border-opacity));
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .border-pink-300 {
   --tw-border-opacity: 1;
   border-color: rgb(249 168 212 / var(--tw-border-opacity));
 }
 
-.border-blue-300 {
+.border-white {
   --tw-border-opacity: 1;
-  border-color: rgb(147 197 253 / var(--tw-border-opacity));
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-dark {
@@ -699,14 +695,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pb-\[-4px\] {
-  padding-bottom: -4px;
-}
-
-.pb-\[-20px\] {
-  padding-bottom: -20px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -761,24 +749,24 @@ video {
 @font-face {
   font-family: "back-home";
 
-  src: url(../public/assets/backhome/Backhome\ Demo.ttf);
+  src: url(/assets/backhome/Backhome\ Demo.ttf);
 }
 
 body {
-  background-image: url(../public/assets/Vector\ 2.png);
+  background-image: url(/assets/Vector\ 2.png);
   background-position: top right;
   background-repeat: no-repeat;
 }
 
 .create-section {
-  background-image: url(../public/assets/Vector\ 1.png);
+  background-image: url(/assets/Vector\ 1.png);
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .features-section {
-  background-image: url(../public/assets/Vector\ 4.png);
+  background-image: url(/assets/Vector\ 4.png);
   background-position: 0px 200px;
   background-repeat: no-repeat;
 }
