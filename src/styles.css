@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "back-home";
-  src: url(/public/assets/backhome/Backhome\ Demo.ttf);
+  src: url(/assets/backhome/Backhome\ Demo.ttf);
 }
 @font-face {
   font-family: "bespoke-serif";
-  src: url(/public/assets/BespokeSerif_Complete/BespokeSerif_Complete/Fonts/Variable/BespokeSerif-Variable.ttf);
+  src: url(/assets/BespokeSerif_Complete/BespokeSerif_Complete/Fonts/Variable/BespokeSerif-Variable.ttf);
 }
 
 body {
